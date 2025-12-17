@@ -1,32 +1,17 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>보안 퀴즈</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+<meta charset="utf-8">
+<title>보안 퀴즈</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="tech.html">보안 기술</a>
-      <a href="case.html">보안 사건 사례</a>
-      <a href="news.html">보안 뉴스</a>
-      <a href="quiz.html">보안 퀴즈</a>
-    </nav>
-  </header>
-
-  <main>
-    <h2>보안 퀴즈</h2>
-    <p>정보보안 지식을 테스트해보세요!</p>
-    <button onclick="startQuiz()">퀴즈 시작</button>
-    <div id="quiz-area"></div>
-  </main>
-
-  <footer>
-    <p>© 2025 김래현</p>
-  </footer>
+<h2>보안관리자 고난이도 퀴즈</h2>
+<div id="question"></div>
+<ul id="answers"></ul>
+<button id="next">다음</button>
+<div id="result"></div>
+<script src="script.js"></script>
 </body>
 </html>
